@@ -6,7 +6,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /* Navbar styles */
@@ -664,13 +666,14 @@ color: #e45300;
 
 
 
-.responsive-image-2 {
+/* .responsive-image-2{
     display: block;
     max-width: 90%;
     height: auto;
-    margin: 40px auto;
+    margin: 190px auto;
     padding-bottom: 40px;
-}
+    align-self: center;
+} */
 
 /* Our Impact Section */
 .impact-section {
@@ -1098,6 +1101,7 @@ color: #e45300;
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    height: 50px;
 }
 
 /* Orange Button */
@@ -1232,6 +1236,7 @@ color: #e45300;
     .banner-btn {
         padding: 10px 20px;
         font-size: 0.9rem;
+        height: 35px;
     }
 
           .jet-right img:nth-child(1),
@@ -1511,7 +1516,7 @@ color: #e45300;
 
 /* Footer Section */
 .footer-section {
-    background-color: #0A1E4D;
+    background-color: #0a1e23;
     /* Dark blue background */
     color: white;
     padding: 40px 20px;
@@ -2624,6 +2629,15 @@ color: #e45300;
  }
 
  @media (max-width: 768px) {
+    .membership-section {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 400px;
+            /* Space around the section */
+            background-color: #fff;
+            /* Light background color */
+        }
+
      .members-grid {
          grid-template-columns: repeat(2, 1fr);
          /* 2 columns per row on smaller screens */
@@ -2631,6 +2645,14 @@ color: #e45300;
  }
 
  @media (max-width: 480px) {
+    .membership-section {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 300px;
+            /* Space around the section */
+            background-color: #fff;
+            /* Light background color */
+        }
      .members-grid {
          grid-template-columns: 1fr;
          /* 1 column per row on extra small screens */
@@ -2690,7 +2712,32 @@ color: #e45300;
   .tx-2{
     background-color: white;
     color: #e45300;
-  }    
+  }
+  
+  .res{
+    margin-top: 550px;
+  }
+
 }
+
+.responsive-image-2 {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 40px auto;
+    margin-bottom: 50px;
+}
+
+
+.banner-content-2 {
+    /* Cream background */
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+    height: 400px;
+}
+
+
 
 
